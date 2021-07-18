@@ -1,4 +1,5 @@
  import styles from '../../styles/Ninjas.module.css'
+ import Link from 'next/link'
 
 // using a function to call API data here (getStaticProps = function name!!!!!)
 // this is an async function that runs at build time, not in the browser.? 
@@ -17,11 +18,11 @@ const Ninjas = ( { ninjas }) => {
         <div>
             <h1>All Ninjas</h1>
             {ninjas.map(ninja => (
-                <div key={ninja.id}>
+                <Link href={'/ninjas/' + ninja.id} key={ninja.id}>
                     <a className={styles.single}>
                         <h3> {ninja.name} </h3>
                     </a>
-                </div>
+                </Link>
             ))}
         </div>
     ) 
