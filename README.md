@@ -1,3 +1,4 @@
+## Project Tutorial from Youtube (The Net Ninja)
 This project is a creation of a small NEXT.js app that Ive built following the tutorial provided by Net Ninja on Youtube. The link to this tutorial can be found [here.](https://www.youtube.com/watch?v=A63UxsQsEbU&list=PL4cUxeGkcC9g9gP2onazU5-2M-AzA8eBw)
 
 
