@@ -1,8 +1,5 @@
 // this Head is used to show metadata. We can change the names so the names of the pages will show up in the tabs
 import Head from 'next/head'
-import Image from 'next/image'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
 // this is importing the modules.  We can use these as shown below with style.NAME of class in file
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
